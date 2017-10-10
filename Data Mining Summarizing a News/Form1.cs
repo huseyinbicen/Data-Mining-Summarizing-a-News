@@ -16,5 +16,10 @@ namespace Data_Mining_Summarizing_a_News
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
