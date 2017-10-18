@@ -117,4 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="txt_Makale.Text" xml:space="preserve">
+    <value>Adobe Flash yüzünden birçok tarayıcıyı kullanmak bir çile haline geliyor. Yeni bir habere göre Adobe Flash'a olan kızgınlık biraz daha artacak.
+Adobe Flash'a olan bu kızgınlığın ana sebebi ise bilgisayar korsanları tarafından, kullanıcı sistemlerini kullanmada ve kötü amaçlı yazılımların yüklemesine olanak sağlayan bir güvenlik açığının olması. Son zamanlarda bu saldırılardan birçok bilgisayar etkilendiği de eklenen bilgiler arasında. Kaspersky Lab tarafından farkedilen ve BlackOasis adlı bir siyasi grup tarafından genellikle Ortadoğu'daki bilgisayarlara yönelik olarak gerçekleştirilen saldırılar Adobe Flash üzerindeki tartışmaları tekrar gündeme getirdi.</value>
+  </data>
 </root>
