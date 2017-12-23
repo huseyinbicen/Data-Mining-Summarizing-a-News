@@ -38,8 +38,8 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Warnock Pro", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(373, 252);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(765, 407);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(191, 40);
             this.button1.TabIndex = 0;
@@ -49,37 +49,37 @@
             // 
             // txt_Makale
             // 
-            this.txt_Makale.Location = new System.Drawing.Point(12, 31);
+            this.txt_Makale.Location = new System.Drawing.Point(12, 43);
             this.txt_Makale.Name = "txt_Makale";
-            this.txt_Makale.Size = new System.Drawing.Size(299, 296);
+            this.txt_Makale.Size = new System.Drawing.Size(546, 404);
             this.txt_Makale.TabIndex = 1;
             this.txt_Makale.Text = resources.GetString("txt_Makale.Text");
             // 
             // txt_Ozet
             // 
-            this.txt_Ozet.Location = new System.Drawing.Point(317, 31);
+            this.txt_Ozet.Location = new System.Drawing.Point(595, 43);
             this.txt_Ozet.Name = "txt_Ozet";
-            this.txt_Ozet.Size = new System.Drawing.Size(299, 178);
+            this.txt_Ozet.Size = new System.Drawing.Size(458, 346);
             this.txt_Ozet.TabIndex = 2;
             this.txt_Ozet.Text = "";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Warnock Pro", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(112, 9);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(220, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 19);
+            this.label1.Size = new System.Drawing.Size(59, 16);
             this.label1.TabIndex = 3;
             this.label1.Text = "Makale";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Warnock Pro", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(409, 9);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(762, 24);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(113, 19);
+            this.label2.Size = new System.Drawing.Size(132, 16);
             this.label2.TabIndex = 4;
             this.label2.Text = "Özetlenen Makale";
             // 
@@ -88,7 +88,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Coral;
-            this.ClientSize = new System.Drawing.Size(630, 336);
+            this.ClientSize = new System.Drawing.Size(1065, 459);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_Ozet);

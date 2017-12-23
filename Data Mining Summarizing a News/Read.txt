@@ -1,0 +1,6 @@
+﻿Hüseyin Biçen Siirt Üniversitesi Bilgisayar Mühendisliği Veri Madenciliği Dönem sonu ödevi
+
+Ödev: Bir haberin özetlenmesi
+
+Gerekli açıklamaları Metodlar üzerinde belirtmişim.
+

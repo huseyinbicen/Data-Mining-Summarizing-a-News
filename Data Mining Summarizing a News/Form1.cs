@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Data_Mining_Summarizing_a_News.Text;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,8 +13,6 @@ namespace Data_Mining_Summarizing_a_News
 {
     public partial class Form1 : Form
     {
-        String makele = "";
-        String ozet = "";
 
         public Form1()
         {
@@ -24,18 +23,16 @@ namespace Data_Mining_Summarizing_a_News
         {
             txt_Ozet.Clear();
 
-            makele = txt_Makale.Text;
-            char[] karakter = { '.', ',', ' ', ':',';','!', '+' , '-','*','/','&','%','(',')','?','{','}','[',']','<','>','|'};
-            List<String> dizi = makele.Split(karakter).ToList();
-
-            foreach (String item in dizi)
+            try
             {
-                ozet += item + " ";
+                SummaryTool summaryTool = new SummaryTool(txt_Makale.Text.ToLower());
+                txt_Ozet.Text = summaryTool.GetSummaryText();
             }
-
-            txt_Ozet.Text = ozet ;
+            catch (Exception hata)
+            {
+                MessageBox.Show(hata.Message);
+            }
+            
         }
-
-      
     }
 }
