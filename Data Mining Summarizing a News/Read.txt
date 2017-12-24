@@ -6,7 +6,9 @@ Proje url : https://github.com/huseyinbicen/Data-Mining-Summarizing-a-News
 
 Gerekli açıklamaları Metodlar üzerinde belirtmişim.
 
-Not: Bu proje kendim algoritmalarım ile yaptım. İnternetteki bir çok projeden ilham kaynağı aldım.
+Not: Bu proje ile ilgili internette bir çok yöntem var. Bu yöntemlere bakarak bende bir yöntem geliştirdim.
+
+///////////// Bu proje sadece ödev bazlı değil, Gelişmeye devam edilecek bir projedir.
 
 
 Adımlar:
@@ -34,13 +36,15 @@ Adımlar:
 7-) Burada çok tekara eden kelimeler arasında türkçede en çok kullanılan sıfatları silmek.(Class = myWords) (DictionaryOptimize)
 8-) Oluşturucağım özet metnin kaç cümleden oluşacağını belirlemek (OzetUzunluk())
 
-			list.count * 20 /100
+			list.count * 17 /100
 			
 			Her metnin cümle uzunluğunun %20 ini alıyorum.
 			
 9-) Daha önce bütün metni küçük harflere çevirmiştim. Ozet metinde cumlelerin baş harflerinin büyük harfle başlatmak için bit metod yaptım.(ilkHarfBuyukYaz())
 
 10-) iki karakterden fazla olan boşlukları silen metod (BoslukSil())
+
+11-) Bir metnin ilk ve son cümleleri önemli olduğu için bunları özet metnin içine koyuyorum.
 
 
 Gerekli olan tüm açıklamaları metod yorumu olarakk yazmışım. 

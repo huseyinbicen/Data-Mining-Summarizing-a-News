@@ -13,6 +13,7 @@ namespace Data_Mining_Summarizing_a_News.Text
         //String Sum_Text = "Numara ... Uzunluk ... Skor ... Cümle \n";
         String Sum_Text = "";
         List<Sentence> list_Cumle = new List<Sentence>();
+        String FirstSentence, LastSentence;
 
         public SummaryTool(String Org_Text)
         {
@@ -30,6 +31,8 @@ namespace Data_Mining_Summarizing_a_News.Text
         {
             List<String> list_EnCokKullanilanKelimeler = enCokKullanilanKelimeler(Org_Text);
 
+            Sum_Text += "\n\n\n.................." + FirstSentence;
+
             for (int i = 0; i < list_EnCokKullanilanKelimeler.Count; i++)
             {
                 for (int k = 0; k < list_Cumle.Count; k++)
@@ -44,6 +47,8 @@ namespace Data_Mining_Summarizing_a_News.Text
                     }
                 }
             }
+
+            Sum_Text += "\n\n\n.................." + LastSentence;
         }
 
 
@@ -71,6 +76,9 @@ namespace Data_Mining_Summarizing_a_News.Text
                     SentenceList.RemoveAt(i);
                 }
             }
+
+            FirstSentence = ilkHarfBuyukYaz(SentenceList[0].TrimStart()) + ilkHarfBuyukYaz(SentenceList[1].TrimStart());
+            LastSentence = SentenceList[SentenceList.Count - 1];
 
             // Burada Her bir cümle, Bir sonraki cümle ile bir skor hesaplıyor. Skor Formül:  (Lenght(s1) + Lenght(s2)) / ((s1.KelimeSayisi + s2.KelimeSayisi)/2)
             for (int i = 0; i < SentenceList.Count - 1; i++)
@@ -154,7 +162,7 @@ namespace Data_Mining_Summarizing_a_News.Text
         {
             //if (list_Cumle.Count < 34)
             //{
-                return Convert.ToInt32(Math.Ceiling(1.0* list_Cumle.Count * 20 / 100));
+                return Convert.ToInt32(Math.Ceiling(1.0* list_Cumle.Count * 17 / 100));
             //}
             //return 7;
         }
