@@ -2,5 +2,47 @@
 
 Ödev: Bir haberin özetlenmesi
 
+Proje url : https://github.com/huseyinbicen/Data-Mining-Summarizing-a-News
+
 Gerekli açıklamaları Metodlar üzerinde belirtmişim.
+
+Not: Bu proje kendim algoritmalarım ile yaptım. İnternetteki bir çok projeden ilham kaynağı aldım.
+
+
+Adımlar:
+1-) Gelen metni ! ? .  gibi karakterleri baz alarak Cümlelere bölüyorum.
+2-) Emin olmak için 10 karakteden küçük olan cümleleri listemden siliyorum.
+3-) Özet cümleyi oluşturmak için her cümlenin bir skoruna ihtiyacım var.
+
+	
+		skor = (Lenght(s1) + Lenght(s2)) / ((w1 + w2) / 2)
+	
+	
+	s1: birinci cümle
+	s2: ikinci cümle
+	w1: s1'in kelime sayisi
+	w2: s2'in kelime sayisi
+	
+	
+4-) Oluşturduğum Sentence Class'ını dolduruyorum
+
+	Sentence -> Numara , Puan , Uzunluk , Cumle
+	
+5-) Sentenceyi puana göre büyükten küçüğe doğru sıralamak
+
+6-) Metinde geçen her kelimenin ne kadar tekrarlandığını bulmak. (by linq)
+7-) Burada çok tekara eden kelimeler arasında türkçede en çok kullanılan sıfatları silmek.(Class = myWords) (DictionaryOptimize)
+8-) Oluşturucağım özet metnin kaç cümleden oluşacağını belirlemek (OzetUzunluk())
+
+			list.count * 20 /100
+			
+			Her metnin cümle uzunluğunun %20 ini alıyorum.
+			
+9-) Daha önce bütün metni küçük harflere çevirmiştim. Ozet metinde cumlelerin baş harflerinin büyük harfle başlatmak için bit metod yaptım.(ilkHarfBuyukYaz())
+
+10-) iki karakterden fazla olan boşlukları silen metod (BoslukSil())
+
+
+Gerekli olan tüm açıklamaları metod yorumu olarakk yazmışım. 
+
 
