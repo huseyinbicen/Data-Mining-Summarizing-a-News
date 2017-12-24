@@ -44,7 +44,7 @@ Adımlar:
 
 10-) iki karakterden fazla olan boşlukları silen metod (BoslukSil())
 
-11-) Bir metnin ilk ve son cümleleri önemli olduğu için bunları özet metnin içine koyuyorum.
+11-) Bir metnin ilk ve son cümleleri önemli olduğu için bunları özet metnin içinde yer alması lazım. Buları ozet metnin başına ve sonuna ekliyorum.
 
 
 Gerekli olan tüm açıklamaları metod yorumu olarakk yazmışım. 
